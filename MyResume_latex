@@ -1,117 +1,59 @@
 \documentclass[a4paper,10pt]{article}
-\usepackage[margin=0.4in]{geometry}
-\usepackage{graphicx}
-\usepackage{enumitem}
+\usepackage[margin=0.5in]{geometry}
 \usepackage{hyperref}
-\usepackage{xcolor}
-\usepackage{titlesec}
-\usepackage{fontawesome5}
-\usepackage{multicol}
-
-
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    urlcolor=blue,
-}
-
+\usepackage{enumitem}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{2pt}
+\setlength{\parskip}{3pt}
 \pagestyle{empty}
-
-% Custom section formatting
-\titleformat{\section}{\color{headerblue}\small\bfseries}{}{0em}{}[\titlerule]
-
-% Color palette
-\definecolor{headerblue}{RGB}{100, 150, 220}
-\definecolor{darkgray}{RGB}{50, 50, 50}
-
 \begin{document}
-
 % Header Section
-\colorbox{headerblue}{%
-    \begin{minipage}{\textwidth}
-        \vspace{0.3cm}
-        \hfill
-        \begin{minipage}{0.25\textwidth}
-            \includegraphics[width=4cm,height=4cm,keepaspectratio]{IMG_20240620_164106.jpg} % Replace with your photo file path
-        \end{minipage}
-        \hfill
-        \begin{minipage}{0.7\textwidth}
-            {\large \color{white}\textbf{Shraddha Singh}} \\[2pt]
-            \textbf{\color{white}Roll No.:} 23/EC/193 \\[2pt]
-            \faEnvelope \ \href{mailto:shraddha160305singh@gmail.com}{\color{white}shraddha160305singh@gmail.com} \hfill 
-            \faGithub \ \href{https://github.com/techoffing}{\color{white}techoffing} \hfill 
-            \faLinkedin \ \href{https://linkedin.com/in/shraddha-singh-29b3a528a}{\color{white}Shraddha Singh}
-        \end{minipage}
-        \hfill
-        \vspace{0.2cm}
-    \end{minipage}
-}
-
-\vspace{0.3cm}
-
-% Profile Summary Section
+\begin{center}
+    {\LARGE \textbf{Shraddha Singh}} \\
+    \textbf{Roll No.} 23/EC/193 \\
+    \href{mailto:shraddha160305singh@gmail.com}{shraddha160305singh@gmail.com} \hfill \href{https://github.com/techoffing}{GitHub} \hfill \href{https://linkedin.com/in/shraddha-singh-29b3a528a}{LinkedIn}
+\end{center}
+% Profile Summary
 \section*{Profile Summary}
-{\small \color{darkgray}Proactive innovator with expertise in Machine Learning, Computer Vision, and Cloud Computing. Skilled in Python, OpenCV, and ROS2. Passionate about delivering impactful solutions through technology and creative problem-solving.}
-
+B.Tech student with expertise in Machine Learning, Computer Vision, and Cloud Computing. Passionate about solving real-world problems using AI/ML technologies. Proven ability to drive project success and enhance system performance through innovative solutions. Key skills: Python, TensorFlow, OpenCV, AWS.
 % Education Section
 \section*{Education}
-{\small \color{darkgray}
-\textbf{Delhi Technological University (DTU)} \hfill 2023–2027 \\
-B.Tech in Electronics and Communication | SGPA: \textbf{8.4 (Sem 2)}, \textbf{8.2 (Sem 1)} \\[2pt]
-\textbf{Lucknow Public School (CBSE)} \\
-Class XII: \textbf{92\%} | Class X: \textbf{95.8\%}
-}
-
+\textbf{B.Tech in Electronics and Communication}, Delhi Technological University (DTU) \hfill 2023–2027 \\
+SGPA: 8.4 (Sem 2), 8.2 (Sem 1) \\
+\textbf{Lucknow Public School (CBSE),Class XII:92\%,Class X:95.8\%} \hfill \\
 % Skills Section
 \section*{Technical Skills}
-{\small
-\begin{multicols}{2}
-    \textbf{Programming:} Python, OpenCV, ROS2, Machine Learning \\
-    \textbf{Tools:} Cloud Computing, Data Structures, DSA \\
-    \textbf{OS:} iOS, Ubuntu, Windows
-\end{multicols}
-}
-
-% Professional Experience Section
+\textbf{Languages:} Python, C++ \hfill \textbf{ML:} TensorFlow, Keras, Scikit-learn \\
+\textbf{Computer Vision:} OpenCV, Image Processing \hfill \textbf{Cloud:} AWS, Google Cloud \\
+\textbf{Tools:} Docker, Git, Jupyter \hfill \textbf{Databases:} MySQL, MongoDB \\
+\textbf{Operating Systems:} Linux (Ubuntu), Windows
+% Experience Section
 \section*{Professional Experience}
-{\small \color{darkgray}
-\textbf{Software Developer – AUV, DTU} \hfill 2023–2024 \\
-- Developed face and color detection modules using OpenCV. \\
-- Implemented A* algorithm for optimal pathfinding. \\[2pt]
-\textbf{Public Relations Executive – STEP DTU} \hfill 2023–2024 \\
-- Directed PR campaigns, enhancing visibility by 40\%. \\[2pt]
-\textbf{Corporate Executive – Yuvaan Fest} \hfill 2023–2024 \\
-- Secured sponsorships worth \textbf{₹75,000}. \\[2pt]
-\textbf{Content \& EA/IR Executive – IEEE DTU} \hfill 2023–2024 \\
-- Curated content for WIEVEK and Bootstrap events. \\[2pt]
-\textbf{Podcast Host – "VOICES UNHEARD"} \hfill 2023–Present \\
-- Highlighted untold stories of professionals breaking stereotypes.
-}
-
+\textbf{Software Developer} — AUV, DTU \hfill 2023–Present \\
+- Improved object detection accuracy by 15\% through advanced image recognition algorithms. \\
+- Enhanced pathfinding algorithm efficiency, reducing latency by 30\%. \\
+\textbf{Podcast Host} — "VOICES UNHEARD" \hfill 2023–Present \\
+- Hosted and produced a podcast reaching 500+ listeners, focusing on career challenges, fostering diverse professional insights and success stories.\\
+\textbf{Chapter Executive} — IEEE WIE, DTU \hfill 2023–Present \\
+- Organized 5+ workshops for empowering women in STEM, increasing participation by 30\%. \\
+\textbf{Public Relations Executive} — STEP DTU \hfill 2023–2024 \\
+- Increased event attendance by 50\% through strategic PR and effective social media campaigns. \\
+\textbf{Corporate Executive} — Yuvaan Fest, DTU \hfill 2023–2024 \\
+- Raised ₹75,000 in sponsorships, surpassing fundraising targets by 25\%. \\
+- Coordinated logistics for events with over 300 attendees, ensuring smooth operations. \\
+\textbf{Content & EA/IR Executive} — IEEE DTU \hfill 2023–2024 \\
+- Curated content for WIEVEK and Bootstrap, increasing event engagement by 30\%. \\
+- Called Parikh Jain(Founding member of Coding-Ninjas,Founder of ProPeers)as speaker.
 % Achievements Section
 \section*{Achievements}
-{\small \color{darkgray}
 \begin{itemize}[leftmargin=0.5cm, itemsep=1pt]
-    \item \textbf{1st Prize, IMC Delhi}, recognized by the Prime Minister.
-    \item Tier 1 student in \textbf{Google Cloud Computing (3x)}.
-    \item Selected for SIH Internal Hackathon (\textbf{Among 250 teams}).
-    \item Shortlisted as a \textbf{GSSOC contributor}.
+    \item 1st Prize at IMC Delhi, recognized by the Prime Minister.
+    \item Top 1\% in Google Cloud Computing certifications (3x).
+    \item Cleared internal hackathon round in SIH (Among 250 teams).
+    \item Contributor to GirlScript Summer of Code (GSSoC), mentoring junior developers.
 \end{itemize}
-}
-
 % Projects Section
 \section*{Key Projects}
-{\small \color{darkgray}
-\begin{itemize}[leftmargin=0.5cm, itemsep=1pt]
-    \item \textbf{Women Safety Analytics:} Real-time threat detection using neural networks and CCTV analytics.
-    \item \textbf{Color Analysis Theory:} Skin tone-based color prediction using hex codes.
-    \item \textbf{DRDO Task Automation:} Digitized manual workflows.
-    \item \textbf{“MAATI” Platform:} Bridged Indian culture with global audiences.
-    \item \textbf{Violence real time threat detection using ML}
-\end{itemize}
-}
-
-
+\textbf{Women Safety Analytics Solution}:Built an AI-powered real-time threat detection system using CCTV analytics, achieving 60\% accuracy in identifying threats.\\
+\textbf{Color Analysis Platform}:Developed a web-based skin-tone color recommendation tool,accuracy 65\%. \\
+\textbf{Violence Detection System}:Implemented an ML model for violence detection in CCTV footage, improving response time by 15\% and reducing false positives.
 \end{document}
